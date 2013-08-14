@@ -1,0 +1,55 @@
+table {
+   width: 100%;
+   border: 1px solid #000;
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   padding: 0.3em;
+   caption-side: bottom;
+}
+.tit {
+   padding: 0.3em;
+   color: #fff;
+    background: #000;
+}
+th {
+   background: #eee;
+}
+input.submit {
+   	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#bbb));
+   	background-image: -moz-linear-gradient(0% 100% 90deg, #BBBBBB, #FFFFFF);
+   	background-color: #fff;
+   	border: none;
+   	border: 1px solid #f1f1f1;
+   	border-radius: 10px;
+   	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+   	color: #444;
+   	font-family: Helvetica, Arial, sans-serif;
+   	font-weight: bold;
+   	height: auto;
+   	line-height: 1;
+   	margin: 12px;
+   	padding: 9px 17px;
+   	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+}
+input.submit:hover {
+    opacity:.55;
+    cursor: pointer; 
+    color: #fff;
+}
+input.submit:active {
+    border: 1px solid #222;
+    box-shadow: 0 0 10px 5px #444 inset; 
+}
+.botones {
+    margin: 0 auto;
+    width: 70%;
+}
+.map{
+	margin: 0 auto;
+	width: 700px;
+}

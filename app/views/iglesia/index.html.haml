@@ -1,0 +1,33 @@
+%body
+
+	= field_set_tag do
+		= form_tag( {},{:method=>'post'}) do
+			%h2 Iglesia
+			%legend
+			%div{:class=>'form-inline'}
+				= label_tag :creacion, 'Creación', :class=>'control-label'
+				= date_field_tag 'creacion',{}, :class=>'input-large'
+				= label_tag :creacion, 'Telefono', :class=>'control-label'
+				= phone_field_tag :rota, {}, :class => 'input-large'
+
+			%div{:class => 'form-inline'}
+				= label_tag :departamento,'Departamento', :class=>'control-label'
+				= select_tag :departamento
+				= label_tag :provincia,'Provincia', :class=>'control-label'
+				= select_tag :provincia
+				= label_tag :distrito,'Distrito', :class=>'control-label'
+				= select_tag :distrito
+			%div{:class=>'form-inline'}
+				= label_tag :direccion,'Dirección', :class=>'control-label'	
+				= text_field_tag :direccion,'' , :class=>'input-xxlarge'
+			%div{:class=>'form-inline'}
+				= label_tag :referencia,'Referencia', :class=>'control-label'
+				= text_field_tag :referencia,'' , :class=>'input-xxlarge'
+
+			= submit_tag 'Save'
+		%div{:class=>'control-group'}
+			= label_tag :ubicacion, 'Ubicación', :class=>'control-label'
+			= hidden_field_tag :latitud
+			= hidden_field_tag :longitud
+			%div{:class=>'controls'}
+				%div{:class=>'input-xxlarge',:id=>'map'}

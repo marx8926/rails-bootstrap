@@ -1,0 +1,51 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+input[type="text"], input[type="password"], input[type="submit"]{
+	margin-top: 10px;
+}
+
+form{
+	margin:0;
+}
+
+.zf-green {
+    color: #4aabec;
+}
+
+.btn-success {
+background: #63b6db; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #63b6db 0%, #309dcf 99%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#63b6db), color-stop(99%,#309dcf)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #63b6db 0%,#309dcf 99%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #63b6db 0%,#309dcf 99%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #63b6db 0%,#309dcf 99%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #63b6db 0%,#309dcf 99%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63b6db', endColorstr='#309dcf',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+ }
+
+.btn-success:hover,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+  background: #e89b15;
+  
+}
+
+.btn-success:active, .btn-success.active {
+  background-color: #e89b15;
+}
+
+div.container a.brand {
+   /*background: url("../images/zf2-logo.png") no-repeat scroll 0 10px;*/
+    margin-left: 0;
+    /*padding: 8px 10px 12px 40px;*/
+  
+}
+.navbar-fixed-top{
+    height: 50px;
+}
